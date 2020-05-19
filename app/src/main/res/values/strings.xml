@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">UniRoadMap</string>
+    <string name="home_bottomnav_1">Map</string>
+    <string name="home_botomnnav_2">Around</string>
+    <string name="home_bottomnav_3">Saved</string>
+    <string name="home_bottomnav_4">Devices</string>
+    <string name="home_bottomnav_5">Account</string>
 </resources>
