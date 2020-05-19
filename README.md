@@ -7,3 +7,6 @@ This repository is an Android Studio project, so you need to open it through And
 
 ## Compatibility of app
 This project targets Android 10 Q and sets minimum API to 24(Android 7 Nougat).
+
+## Contribution
+You can help making this project by helping developer in development. Contact here: ggoraa1029@gmail.com
