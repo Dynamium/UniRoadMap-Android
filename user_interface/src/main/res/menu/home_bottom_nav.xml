@@ -2,6 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/bottomnav_map"
-        android:title="Map" />
+        android:title="@string/home_bottomnav_1"
+        android:icon="@drawable/ic_room_24px"/>
+    <item android:id="@+id/bottomnav_around"
+        android:title="@string/home_botomnnav_2"
+        android:icon="@drawable/ic_supervisor_account_24px"/>
+    <item android:id="@+id/bottomnav_saved"
+        android:title="@string/home_bottomnav_3"
+        android:icon="@drawable/ic_bookmark_border_24px"/>
+    <item android:id="@+id/bottomnav_devices"
+        android:title="@string/home_bottomnav_4"
+        android:icon="@drawable/ic_devices_24px"/>
+    <item android:id="@+id/bottomnav_account"
+        android:title="@string/home_bottomnav_5"
+        android:icon="@drawable/ic_account_circle_24px"/>
 
 </menu>
