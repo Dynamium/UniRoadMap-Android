@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/UniRoadMap.iml" filepath="$PROJECT_DIR$/UniRoadMap.iml" group="UniRoadMap" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="UniRoadMap/app" />
+      <module fileurl="file://$PROJECT_DIR$/user_interface/user_interface.iml" filepath="$PROJECT_DIR$/user_interface/user_interface.iml" group="UniRoadMap/user_interface" />
     </modules>
   </component>
 </project>

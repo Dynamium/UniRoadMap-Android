@@ -1,2 +1,3 @@
 rootProject.name='UniRoadMap'
 include ':app'
+include ':user_interface'
