@@ -23,7 +23,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="24dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="16dp"
             android:hint="@string/home_map_search_text"
             android:importantForAutofill="no"
             app:boxStrokeWidth="0px"
