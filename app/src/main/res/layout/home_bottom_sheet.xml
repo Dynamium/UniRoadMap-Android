@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/home_bottom_sheet"
     android:layout_width="match_parent"
-    android:layout_height="240dp"
-    android:background="#FFFFFF"
+    android:layout_height="200dp"
+    android:background="@drawable/bottom_sheet_background"
     android:orientation="vertical"
     app:behavior_hideable="false"
     app:behavior_peekHeight="65dp"
@@ -17,11 +17,11 @@
 
         <EditText
             android:id="@+id/homeSearchBar"
-            android:layout_width="253dp"
-            android:layout_height="41dp"
-            android:layout_marginStart="16dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="24dp"
             android:layout_marginBottom="10dp"
             android:ems="10"
             android:importantForAutofill="no"
@@ -36,7 +36,7 @@
             android:id="@+id/homeMapLayersButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="21dp"
             android:background="#00000000"
@@ -45,37 +45,48 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_bookmark" />
+            app:srcCompat="@drawable/ic_stack" />
 
         <ImageButton
             android:id="@+id/homeMapUserLocationButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="24dp"
             android:background="#00000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/homeSearchVoiceInputButton"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_data" />
+            app:srcCompat="@drawable/ic_media_podcast" />
 
         <ImageButton
             android:id="@+id/homeSearchVoiceInputButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="24dp"
             android:background="#00000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/homeMapUserLocationButton"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toEndOf="@+id/homeSearchBar"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_boy" />
+            app:srcCompat="@drawable/ic_mic" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/homeSearchBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_bottom_sheet_pill" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="110dp">
+        android:layout_height="135dp">
 
         <Button
             android:id="@+id/button"
