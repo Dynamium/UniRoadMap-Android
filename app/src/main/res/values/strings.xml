@@ -6,6 +6,5 @@
     <string name="home_bottomnav_4">Devices</string>
     <string name="home_bottomnav_5">Account</string>
 
-<!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_map_search_text">Search here…</string>
 </resources>
