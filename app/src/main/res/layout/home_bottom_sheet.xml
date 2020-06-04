@@ -26,13 +26,11 @@
             android:layout_marginBottom="8dp"
             android:hint="@string/home_map_search_text"
             android:importantForAutofill="no"
-            app:boxStrokeColor="#00000000"
             app:boxStrokeWidth="0px"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/homeSearchVoiceInputButton"
             app:layout_constraintStart_toEndOf="@+id/homeMapLayersButton"
-            app:layout_constraintTop_toTopOf="parent"
-            app:startIconDrawable="@drawable/ic_search">
+            app:layout_constraintTop_toTopOf="parent">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
