@@ -59,7 +59,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/homeSearchVoiceInputButton"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_pin_alt" />
+            app:srcCompat="@drawable/ic_gps_fixed" />
 
         <ImageButton
             android:id="@+id/homeSearchVoiceInputButton"
@@ -81,6 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toTopOf="@+id/homeSearchBar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
