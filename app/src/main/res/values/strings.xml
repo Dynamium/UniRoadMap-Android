@@ -9,4 +9,7 @@
     <string name="home_map_search_text">Search here…</string>
 
     <string name="mapbox_map_token">pk.eyJ1IjoiZ2dvcmFhIiwiYSI6ImNrNnpscHFvZDBhZ2gzcm1sbXVpb3B1YWwifQ.RErV2Z9rGAlr21GyAsx-nA</string>
+    <string name="bottom_sheet_home_text">Home</string>
+    <string name="bottom_sheet_work_text">Work</string>
+    <string name="bottom_sheet_start_navigation_text">Go</string>
 </resources>

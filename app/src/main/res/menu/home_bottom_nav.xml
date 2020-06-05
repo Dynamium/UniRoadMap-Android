@@ -2,23 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/bottomnav_map"
+        android:id="@+id/bottomnavMap"
         android:icon="@drawable/ic_pin"
         android:title="@string/home_bottomnav_1" />
     <item
-        android:id="@+id/bottomnav_around"
+        android:id="@+id/bottomnavAround"
         android:icon="@drawable/ic_data"
         android:title="@string/home_botomnnav_2" />
     <item
-        android:id="@+id/bottomnav_saved"
+        android:id="@+id/bottomnavSaved"
         android:icon="@drawable/ic_bookmark"
         android:title="@string/home_bottomnav_3" />
     <item
-        android:id="@+id/bottomnav_devices"
+        android:id="@+id/bottomnavDevices"
         android:icon="@drawable/ic_laptop"
         android:title="@string/home_bottomnav_4" />
     <item
-        android:id="@+id/bottomnav_account"
+        android:id="@+id/bottomnavAccount"
         android:icon="@drawable/ic_boy"
         android:title="@string/home_bottomnav_5" />
 
