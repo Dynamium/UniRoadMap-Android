@@ -1,33 +1,38 @@
 package org.dynamium.uniroadmap
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.mapbox.mapboxsdk.Mapbox
-import com.mapbox.mapboxsdk.maps.MapView
-import com.mapbox.mapboxsdk.maps.Style
-
-private var mapView: MapView? = null
+import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.foundation.Text
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Surface
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.platform.setContent
+import androidx.ui.tooling.preview.Preview
+import org.dynamium.uniroadmap.ui.UniRoadMapTheme
 
 class MainActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        Mapbox.getInstance(getApplicationContext(), getString(R.string.mapbox_map_token));
-
-        setContentView(R.layout.activity_main)
-
-        mapView = findViewById(R.id.mapView)
-        mapView?.onCreate(savedInstanceState)
-        mapView?.getMapAsync { mapboxMap ->
-
-            mapboxMap.setStyle(Style.MAPBOX_STREETS) {
-
-// Map is set up and the style has loaded. Now you can add data or make other map adjustments
-
-
+        setContent {
+            UniRoadMapTheme {
+                // A surface container using the 'background' color from the theme
+                Surface(color = MaterialTheme.colors.background) {
+                    Greeting("World")
+                }
             }
-
         }
+    }
+}
+
+@Composable
+fun Greeting(name: String) {
+    Text(text = "Hello $name!")
+}
+
+@Preview(showBackground = true)
+@Composable
+fun DefaultPreview() {
+    UniRoadMapTheme {
+        Greeting("Android")
     }
 }
