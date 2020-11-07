@@ -1,4 +1,6 @@
 # UniRoadMap-Android
 The source code of UniRoadMap for Android.
 
-## Note: This repo contains outdated code. We are moving to JetBrains Space, and when there will be functionality to mirror TO GitHub instead of FROM GitHub, this repo will immideately become a mirror. I hope you understand.
+## This repo will soon move from GitHub to JetBrains Space with mirroring to GitHub. For now there is no available functionality to mirror a repo TO GitHub instead of FROM GitHub. When this functionality will be available, repos will be immidiately mirrored to GitHub. Just wait :) 
+
+## Note: this repo contains outdated code.
